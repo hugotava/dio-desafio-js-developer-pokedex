@@ -28,12 +28,28 @@
 
         <div id="pokemonDetails" class="pokemon-details">
             <!-- ..... Pokemon details here ..... -->
+            <ol>
+                <li class="pokemon name">
+                    <span class="number">0001</span>
+                    <span class="name">Bulbasaur</span>
+        
+                    <div class="pokemon detail">
+                        <ol class="types">
+                            <li class="type ${type}">grass</li>
+                        </ol>
+        
+                        <img src="${pokemon.photo}"
+                             alt="Bulbasaur">
+                    </div>
+                </li>
+            </ol>
         </div>
     </section>
 
     <!-- Nosso JS -->
+    <script src="/assets/js/pokemon-model.js"></script>
     <script src="/assets/js/poke-api.js"></script>
-    <script src="/assets/js/pokemon-details.js"></script>
+    <script src="/assets/js/main.js"></script>
 </body>
 
 </html>
